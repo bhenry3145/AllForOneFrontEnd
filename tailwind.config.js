@@ -7,7 +7,14 @@ module.exports = {
     "./pages/**/*.{html,js}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      // fontFamily: {
+      //   'Inknut': ['InknutAntiqua-Regular']
+      // },
+      fontFamily: {
+        'Mogra': ['Mogra-Regular']
+      },
+    },
   },
   plugins: [
     require('flowbite/plugin')
