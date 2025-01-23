@@ -8,3 +8,4 @@ const reverseItNumbersBtn = document.getElementById('reverseItNumbersBtn');
 const magic8BallBtn = document.getElementById('magic8BallBtn');
 const guessItBtn = document.getElementById('guessItBtn');
 const restaurantPickerBtn = document.getElementById('restaurantPickerBtn');
+
