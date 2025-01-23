@@ -4,57 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <link rel="stylesheet" href="./src/output.css">
     <link rel="stylesheet" href="./src/styles.css">
 </head>
 
-<body class="normal-machine">
+<body class="normal-machine flex justify-center">
 
-    <div class="screen">
-        <h1 class="header">All For One</h1>
+    <div class="bg-black mt-16 h-auto w-auto flex justify-center flex-col rounded-3xl p-4">
+        <h1 class="flex justify-center text-white text-3xl m-8">All For One</h1>
         <div class="screen-grid">
 
             <div>
-                <button class="hello-btn">Hello World</button>
+                <button id="sayHelloBtn" class="bg-orange-400 w-36 h-32 rounded-3xl text-4xl">Hello World</button>
             </div>
             <div>
-                <button class="asking-questions-btn">Asking Questions</button>
+                <button id="askingQuestionsBtn" class="bg-green-500 w-36 h-32 rounded-3xl text-3xl">Asking Questions</button>
             </div>
             <div>
-                <button class="adding-numbers-btn">Adding Two Numbers</button>
+                <button id="addingTwoNumbersBtn" class="bg-purple-600 w-36 h-32 rounded-3xl text-2xl">Adding Two Numbers</button>
             </div>
             <div>
-                <button class="madlib-btn">Madlib</button>
+                <button id="madlibBtn" class="bg-yellow-300 w-36 h-32 rounded-3xl text-4xl">Madlib</button>
             </div>
             <div>
-                <button class="hello-btn">Hello World</button>
+                <button id="oddOrEvenBtn" class="bg-teal-600 w-36 h-32 rounded-3xl text-4xl">Odd or Even</button>
             </div>
             <div>
-                <button class="hello-btn">Hello World</button>
+                <button id="reverseItAlphaBtn" class="bg-yellow-300 w-36 h-32 rounded-3xl text-3xl">Reverse It (alpha)</button>
             </div>
             <div>
-                <button class="hello-btn">Hello World</button>
+                <button id="reverseItNumbersBtn" class="bg-blue-500 w-36 h-32 rounded-3xl text-3xl">Reverse It (numbers)</button>
             </div>
             <div>
-                <button class="hello-btn">Hello World</button>
+                <button id="magic8BallBtn" class="bg-red-600 w-36 h-32 rounded-3xl text-4xl">Magic 8 Ball</button>
             </div>
             <div>
-                <button class="hello-btn">Hello World</button>
+                <button id="guessItBtn" class="bg-pink-400 w-36 h-32 rounded-3xl text-4xl">Guess It</button>
             </div>
             <div>
-                <button class="hello-btn">Hello World</button>
+                <button id="restaurantPickerBtn" class="bg-lime-400 w-36 h-32 rounded-3xl text-3xl">Restaurant Picker</button>
             </div>
         </div>
 
         <div>
-            <h1 class="name">Created by Bowen Henry</h1>
+            <h1 class="flex justify-center mt-32 text-white">Created by Bowen Henry</h1>
         </div>
 
     </div>
     
 
-
+    <script src="./scripts/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
 </body>
 
