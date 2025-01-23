@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Mogra;
+    src: url('../fonts/Mogra-Regular.ttf');
+}
+
+@font-face {
+    font-family: Inknut;
+    src: url('../fonts/InknutAntiqua-Regular.ttf');
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.normal-machine {
+    background-image: url('../images/sodamachine.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -2rem;
+}
+
+.mobile-machine {
+    background-image: url('../images/tallsodamachine.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.screen {
+    margin-top: 4rem;
+    height: 36rem;
+    width: 56rem;
+    background-color: black;
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.screen-grid {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.hello-btn {
+    background-color: #EF9D45;
+    width: 9rem;
+    height: 8rem;
+    font-family: Mogra;
+    border-radius: 15%;
+    font-size: 36px;
+}
+
+.asking-questions-btn {
+    background-color: #4ECE4C;
+    width: 9rem;
+    height: 8rem;
+    font-family: Mogra;
+    border-radius: 15%;
+    font-size: 28px;
+}
+
+.adding-numbers-btn {
+    background-color: #AD25FB;
+    width: 9rem;
+    height: 8rem;
+    font-family: Mogra;
+    border-radius: 15%;
+    font-size: 24px;
+}
+
+.madlib-btn {
+    background-color: #FFEB33;
+}
+
+.header {
+    color: white;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    font-family: Inknut;
+    margin: 2rem;
+}
+
+.name {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+    font-family: Inknut;
+}
