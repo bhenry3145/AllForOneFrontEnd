@@ -12,14 +12,14 @@
 <body class="sm:bg-[url('../images/sodamachine.webp')] h-full w-full bg-repeat-none bg-cover bg-[url('../images/tallsodamachine.png')] flex justify-center">
 
     <div class="bg-black mt-16 h-[540px] w-[848px] flex justify-center flex-col rounded-3xl p-4">
-        <div class="hello-world-grid">
+        <div class="grid grid-rows-2 grid-cols-[2fr_1fr] gap-8 hello-world-grid">
 
             <div>
                 <div>
-                    <h1 class="bg-red-600 w-fit h-32 rounded-3xl m-8 p-8 text-4xl">Type question below and Press Enter</h1>
+                    <h1 id="magic8BallResponse" class="bg-red-600 w-fit h-32 rounded-3xl m-8 p-8 text-4xl">Type question below and Press Enter</h1>
                 </div>
                 <div>
-                    <input placeholder="Question" class="bg-white w-fit h-32 rounded-3xl p-8 m-8 text-4xl"></input>
+                    <input id="magic8BallInput" placeholder="Question" class="bg-white w-fit h-32 rounded-3xl p-8 m-8 text-4xl"></input>
                 </div>
             </div>
 
@@ -39,7 +39,7 @@
     </div>
 
 
-    <script src="../scripts/app.js"></script>
+    <script src="../scripts/magic8Ball.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
 </body>
 

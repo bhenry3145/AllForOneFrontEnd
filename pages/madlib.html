@@ -14,7 +14,7 @@
     <div class="bg-black mt-24 h-[540px] w-[848px] flex justify-center flex-col rounded-3xl p-4">
         <div class="grid grid-cols-3 gap-4 madlib-grid">
 
-            <div class="bg-yellow-300 w-72 rounded-3xl flex flex-col justify-items-center">
+            <div id="madlibResponse" class="bg-yellow-300 w-72 rounded-3xl flex flex-col justify-items-center">
                 <h1>Box 1: Place</h1>
                 <h1>Box 2: Adjective</h1>
                 <h1>Box 3: Animal</h1>
@@ -28,16 +28,16 @@
             </div>
 
             <div>
-                <input placeholder="Place" class="bg-white w-72 h-[12px] rounded-3xl p-2 text-md"></input>
-                <input placeholder="Adjective" class="bg-white w-72 h-[12px] rounded-3xl p-2 text-md"></input>
-                <input placeholder="Animal" class="bg-white w-72 h-[12px] rounded-3xl p-2 text-md"></input>
-                <input placeholder="Adverb" class="bg-white w-72 h-[12px] rounded-3xl p-2 text-md"></input>
-                <input placeholder="Verb (present tense)" class="bg-white w-72 h-[12px] rounded-3xl p-2 text-md"></input>
-                <input placeholder="Name" class="bg-white w-72 h-[12px] rounded-3xl p-2 text-md"></input>
-                <input placeholder="Amount" class="bg-white w-72 h-[12px] rounded-3xl p-2 text-md"></input>
-                <input placeholder="Item (plural)" class="bg-white w-72 h-[12px] rounded-3xl p-2 text-md"></input>
-                <input placeholder="Vehicle" class="bg-white w-72 h-[12px] rounded-3xl p-2 text-md"></input>
-                <input placeholder="Country" class="bg-white w-72 h-[12px] rounded-3xl p-2 text-md"></input>
+                <input id="placeInput" placeholder="Place" class="bg-white w-72 h-[12px] rounded-3xl p-2 text-md"></input>
+                <input id="adjectiveInput" placeholder="Adjective" class="bg-white w-72 h-[12px] rounded-3xl p-2 text-md"></input>
+                <input id="animalInput" placeholder="Animal" class="bg-white w-72 h-[12px] rounded-3xl p-2 text-md"></input>
+                <input id="adverbInput" placeholder="Adverb" class="bg-white w-72 h-[12px] rounded-3xl p-2 text-md"></input>
+                <input id="verbInput" placeholder="Verb (present tense)" class="bg-white w-72 h-[12px] rounded-3xl p-2 text-md"></input>
+                <input id="nameInput" placeholder="Name" class="bg-white w-72 h-[12px] rounded-3xl p-2 text-md"></input>
+                <input id="amountInput" placeholder="Amount" class="bg-white w-72 h-[12px] rounded-3xl p-2 text-md"></input>
+                <input id="itemInput" placeholder="Item (plural)" class="bg-white w-72 h-[12px] rounded-3xl p-2 text-md"></input>
+                <input id="vehicleInput" placeholder="Vehicle" class="bg-white w-72 h-[12px] rounded-3xl p-2 text-md"></input>
+                <input id="countryInput" placeholder="Country" class="bg-white w-72 h-[12px] rounded-3xl p-2 text-md"></input>
                 
             </div>
 
@@ -57,7 +57,7 @@
     </div>
 
 
-    <script src="../scripts/app.js"></script>
+    <script src="../scripts/madlib.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
 </body>
 

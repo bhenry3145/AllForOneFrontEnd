@@ -45,14 +45,14 @@
     align-items: center;
 } */
 
-/* .asking-questions-grid {
+.asking-questions-grid {
     display: grid;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(2, auto);
     gap: 2rem;
     justify-content: center;
     align-items: center;
-} */
+}
 
 /* .madlib-grid {
     display: grid;

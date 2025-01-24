@@ -12,7 +12,7 @@ module.exports = {
       //   'Inknut': ['InknutAntiqua-Regular']
       // },
       fontFamily: {
-        'Mogra': ['Mogra-Regular']
+        'Mogra': ['../fonts/Mogra-Regular.ttf']
       },
     },
   },
