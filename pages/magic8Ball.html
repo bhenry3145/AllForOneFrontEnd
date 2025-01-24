@@ -4,36 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magic 8 Ball</title>
+    <title>Hello World</title>
     <link rel="stylesheet" href="../src/output.css">
     <link rel="stylesheet" href="../src/styles.css">
 </head>
 
-<body class="sm:bg-[url('../images/sodamachine.webp')] h-full w-full bg-repeat-none bg-cover bg-[url('../images/tallsodamachine.png')] flex justify-center">
+<body class="md:bg-[url('../images/sodamachine.webp')] w-full sm:h-full sm:w-full bg-repeat-none bg-cover bg-[url('../images/tallsodamachine.png')] sm:grid sm:grid-rows-[10%_55%_35%] sm:grid-cols-[20%_60%_20%] justify-center">
 
-    <div class="bg-black mt-16 h-[540px] w-[848px] flex justify-center flex-col rounded-3xl p-4">
-        <div class="grid grid-rows-2 grid-cols-[2fr_1fr] gap-8 hello-world-grid">
+    <div class="bg-black h-[48rem] w-[32rem] flex justify-center align-middle flex-col lg:col-start-2 lg:row-start-2 rounded-3xl p-4 lg:h-full lg:w-full">
+        <div class="grid grid-rows-2 grid-cols-[2fr_1fr] gap-8">
 
             <div>
                 <div>
-                    <h1 id="magic8BallResponse" class="bg-red-600 w-fit h-32 rounded-3xl m-8 p-8 text-4xl">Type question below and Press Enter</h1>
+                    <h1 id="magic8BallResponse" class="bg-red-600 w-fill h-32 rounded-3xl m-8 p-8 text-3xl">Enter Name and Press Enter</h1>
                 </div>
                 <div>
-                    <input id="magic8BallInput" placeholder="Question" class="bg-white w-fit h-32 rounded-3xl p-8 m-8 text-4xl"></input>
+                    <input id="magic8BallInput" placeholder="Name" class="bg-white w-fit h-32 rounded-3xl p-8 m-8 text-4xl"></input>
                 </div>
             </div>
 
-            <div class="flex flex-col">
-                <a href="../index.html">
-                    <button class="bg-red-600 w-36 h-32 rounded-3xl m-8 text-4xl">Home</button>
-                </a>
-                <button id="magic8BallEnter" class="bg-red-600 w-36 h-32 rounded-3xl m-8 text-4xl">Enter</button>
+            <div>
+                <div>
+                    <a href="../index.html">
+                        <button class="bg-red-600 w-36 h-32 rounded-3xl p-8 m-8 text-4xl">Home</button>
+                    </a>
+                </div>
+                <div>
+                    <button id="magic8BallEnter" class="bg-red-600 w-36 h-32 rounded-3xl m-8 p-8 text-4xl ">Enter</button>
+                </div>
             </div>
             
         </div>
 
         <div>
-            <h1 class="flex justify-center mt-32 text-white">Magic 8 Ball</h1>
+            <h1 class="flex justify-center text-3xl text-white">Magic 8 Ball</h1>
         </div>
 
     </div>
