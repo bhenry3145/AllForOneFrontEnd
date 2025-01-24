@@ -27,37 +27,37 @@
     background-size: cover;
 } */
 
-.screen-grid {
+/* .screen-grid {
     display: grid;
     grid-template-columns: repeat(5, auto);
     grid-template-rows: repeat(2, auto);
     gap: 2rem;
     justify-content: center;
     align-items: center;
-}
+} */
 
-.hello-world-grid {
+/* .hello-world-grid {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: repeat(2, auto);
     gap: 2rem;
     justify-content: center;
     align-items: center;
-}
+} */
 
-.asking-questions-grid {
+/* .asking-questions-grid {
     display: grid;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(2, auto);
     gap: 2rem;
     justify-content: center;
     align-items: center;
-}
+} */
 
-.madlib-grid {
+/* .madlib-grid {
     display: grid;
     grid-template-columns: repeat(3, auto);
     gap: 1rem;
     justify-content: center;
     align-items: center;
-}
+} */
