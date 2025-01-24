@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 /* @font-face {
@@ -13,18 +14,18 @@
     src: url('../fonts/InknutAntiqua-Regular.ttf');
 }
 
-.normal-machine {
+/* .normal-machine {
     background-image: url('../images/sodamachine.webp');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0 -2rem;
-}
+    background-position: 0 -6rem;
+} */
 
-.mobile-machine {
+/* .mobile-machine {
     background-image: url('../images/tallsodamachine.png');
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 .screen-grid {
     display: grid;
