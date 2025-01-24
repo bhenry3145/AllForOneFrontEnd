@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greater Than or Less Than</title>
+    <link rel="stylesheet" href="../src/output.css">
+    <link rel="stylesheet" href="../src/styles.css">
+</head>
+
+<body
+    class="sm:bg-[url('../images/sodamachine.webp')] h-full w-full bg-repeat-none bg-cover bg-[url('../images/tallsodamachine.png')] flex justify-center">
+
+    <div class="bg-black mt-16 h-[540px] w-[848px] flex justify-center flex-col rounded-3xl p-4">
+        <div class="asking-questions-grid">
+
+            <div>
+                <div>
+                    <h1 id="comparingNumbersResponse" class="bg-pink-500 w-fill h-32 rounded-3xl m-2 p-4 text-3xl">Enter
+                        your first number in box 1 and second number in box 2 and Press Enter</h1>
+                </div>
+                <div>
+                    <input id="comparingNumbersNum1Input" placeholder="Num 1"
+                        class="bg-white w-72 h-32 rounded-3xl p-8 m-2 text-4xl"></input>
+                    <input id="comparingNumbersNum2Input" placeholder="Num 2"
+                        class="bg-white w-64 h-32 rounded-3xl p-8 m-2 text-4xl"></input>
+                </div>
+            </div>
+
+            <div class="flex flex-col">
+                <a href="../index.html">
+                    <button class="bg-pink-500 w-36 h-32 rounded-3xl m-2 text-4xl">Home</button>
+                </a>
+                <button id="comparingNumbersEnter" class="bg-pink-500 w-36 h-32 rounded-3xl m-2 text-4xl">Enter</button>
+            </div>
+
+        </div>
+
+        <div class="mt-32">
+            <h1 class="flex justify-center justify-end  text-white">Greater or Less Than</h1>
+        </div>
+
+    </div>
+
+
+    <script src="../scripts/greaterThan.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+</body>
+
+</html>
