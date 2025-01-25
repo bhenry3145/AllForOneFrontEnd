@@ -24,3 +24,5 @@ Use the backend API to fetch a random restaurant suggestion based on the provide
 Display the restaurant suggestion prominently on the page.
 Consistency:
 Maintain a consistent design theme across all pages to ensure a seamless user experience.
+
+Peer Review:
