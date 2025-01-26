@@ -12,27 +12,27 @@
 <body
     class="md:bg-[url('../images/sodamachine.webp')] w-full sm:h-full sm:w-full bg-repeat-none bg-cover bg-[url('../images/tallsodamachine.png')] sm:grid sm:grid-rows-[10%_55%_35%] sm:grid-cols-[20%_60%_20%] justify-center">
 
-    <div class="bg-black flex justify-center align-middle flex-col col-start-2 row-start-2 lg:col-start-2 lg:row-start-2 rounded-3xl p-4 h-fit w-fit lg:h-full lg:w-full">
-        <div class="asking-questions-grid">
+    <div class="bg-black flex justify-center align-middle flex-col col-start-2 row-start-2 lg:col-start-2 lg:row-start-2 rounded-3xl p-4 h-fit w-fit lg:h-full lg:w-full overflow-hidden">
+        <div class="grid grid-cols-2 grid-rows-2 gap-4 lg:gap-2">
 
             <div>
                 <div>
-                    <h1 id="addingNumbersResponse" class="bg-purple-600 w-fill h-32 rounded-3xl m-2 p-4 text-3xl">Enter
+                    <h1 id="addingNumbersResponse" class="bg-purple-600 text-xl w-fit h-16 lg:w-fill lg:h-32 rounded-3xl m-2 p-2 lg:m-4 lg:p-4 lg:text-3xl">Enter
                         your first number in box 1 and second number in box 2 and Press Enter</h1>
                 </div>
                 <div>
                     <input id="addingNumbersNum1Input" placeholder="Num 1"
-                        class="bg-white w-72 h-32 rounded-3xl p-8 m-2 text-4xl"></input>
+                        class="bg-white w-32 h-16 lg:w-fit lg:h-32 rounded-3xl p-2 m-2 lg:p-4 lg:m-4 text-xl lg:text-4xl"></input>
                     <input id="addingNumbersNum2Input" placeholder="Num 2"
-                        class="bg-white w-64 h-32 rounded-3xl p-8 m-2 text-4xl"></input>
+                        class="bg-white w-32 h-16 lg:w-fit lg:h-32 rounded-3xl p-2 m-2 lg:p-4 lg:m-4 text-xl lg:text-4xl"></input>
                 </div>
             </div>
 
             <div class="flex flex-col">
                 <a href="../index.html">
-                    <button class="bg-purple-600 w-36 h-32 rounded-3xl m-2 text-4xl">Home</button>
+                    <button class="bg-purple-600 w-20 h-16 text-xl lg:w-36 lg:h-32 rounded-3xl lg:p-8 lg:m-8 lg:text-4xl">Home</button>
                 </a>
-                <button id="addingNumbersEnter" class="bg-purple-600 w-36 h-32 rounded-3xl m-2 p-8 text-4xl">Enter</button>
+                <button id="addingNumbersEnter" class="bg-purple-600 w-20 h-16 text-xl lg:w-36 lg:h-32 rounded-3xl lg:p-8 lg:m-8 lg:text-4xl">Enter</button>
             </div>
 
         </div>

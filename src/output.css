@@ -2603,6 +2603,10 @@ input:checked + .toggle-bg {
     margin: 0px;
   }
 
+  .lg\:m-4 {
+    margin: 1rem;
+  }
+
   .lg\:mb-32 {
     margin-bottom: 8rem;
   }
@@ -2648,8 +2652,20 @@ input:checked + .toggle-bg {
     gap: 2rem;
   }
 
+  .lg\:gap-4 {
+    gap: 1rem;
+  }
+
+  .lg\:gap-2 {
+    gap: 0.5rem;
+  }
+
   .lg\:p-8 {
     padding: 2rem;
+  }
+
+  .lg\:p-4 {
+    padding: 1rem;
   }
 
   .lg\:text-4xl {
