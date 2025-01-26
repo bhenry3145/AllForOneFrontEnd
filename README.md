@@ -25,4 +25,4 @@ Display the restaurant suggestion prominently on the page.
 Consistency:
 Maintain a consistent design theme across all pages to ensure a seamless user experience.
 
-Peer Review:
+Peer Review:Alan Batres The code works perectly and the game runs good although the games are not fully responsive, but other than that great job:)
